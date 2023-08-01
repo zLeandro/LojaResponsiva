@@ -1,0 +1,164 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    padding: 25px 0;
+    background-color: rgb(0, 0, 0);
+    color: #fff;
+    font-size: 25px;
+    text-decoration: none;
+}
+
+header nav li {
+    display: inline;
+    margin-left: 16px;
+    font-size: 25px;
+}
+
+header nav li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.container {
+    max-width: 1280px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+header .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.container img {
+    max-height: 400px;
+    margin-right: 30px;
+    display: flex;
+    width: 100%;
+    height: auto;
+}
+
+section .container  {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+section {
+    padding: 50px 0;
+}
+
+section h2 {
+    margin-bottom: 20px;
+}
+
+section p {
+    margin-bottom: 18px;
+    margin-top: 20px;
+    display: flex;
+    font-size: 100%;
+    word-wrap: break-word;
+    white-space: pre-line;
+    width: 100%;
+    height: auto;
+}
+
+#linha-horizontal {
+    width: 700px;
+    border: 1px solid #000;
+}
+
+.lista-produtos li {
+    list-style: none;
+    align-items: flex-start;
+}
+
+.container li img {
+    height: 200px;
+    display: flex;
+}
+
+button { 
+    background-color: rgb(0, 26, 255);
+    padding: 7px;
+    border: none;
+    border-radius: 7px;
+    font-size: 15px;
+    font-weight: bold;
+    color: #fff;
+    cursor: pointer;
+    display: flex;
+}
+
+body {
+    background-color: rgb(223, 223, 223);
+}
+
+button:hover {
+    background-color: rgb(3, 48, 78);
+}
+
+footer {
+    padding: 85px;
+    background-color: rgb(0, 0, 0);
+    color:#fff;
+}
+
+
+
+@media screen and (max-width: 768px) {
+    .container, .container-flex {
+        display: block;
+        word-wrap: break-word;
+        overflow-x: hidden;
+    }
+
+    .container img {
+        width: 100%;
+        height: auto;
+        margin-bottom: 80px;
+    }
+
+    section .container  {
+        display: block;
+        align-items: center;
+    }
+
+    .container {
+        max-width: 100%;
+        overflow-x: hidden;
+    }
+    
+    header nav li {
+        font-size: 13px;
+    }
+}
+
+@media (max-width: 991px) {
+    header {
+        display: flex;
+        padding: 25px auto
+    }
+
+    section .container  {
+        display: block;
+        align-items: center;
+    }
+
+    .container li img {
+        height: 250px;
+        display: flex;
+    }
+
+}
+
+
+
+
+
+
